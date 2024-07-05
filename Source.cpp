@@ -56,7 +56,8 @@ public:
     }
 };
 
-struct Test {
+class Test {
+public:
     Test() { cout << "Test constructed\n"; }
     ~Test() { cout << "Test destructed\n"; }
     void sayHello() const { cout << "Hello from Test\n"; }
